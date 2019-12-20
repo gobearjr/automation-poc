@@ -18,3 +18,4 @@ nightwatch_chrome.conf.js
 nightwatch_firefox.conf.js
 sdet_test/screenshots/*
 /sdet_test/*conf.js
+browserconfig.json
