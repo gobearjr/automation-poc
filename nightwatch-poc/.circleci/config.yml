@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/node:chakracore-8.9.4-browsers
       - image: selenium/node-chrome-debug:latest
-    working_directory: ~/repo
+    working_directory: ~/nightwatch-poc
     steps:
       - checkout
       - restore_cache:
